@@ -11,5 +11,8 @@
   },
   "scripts": {
     "test": "node scripts/bump-solidity.js && npx hardhat test"
+  },
+  "dependencies": {
+    "hardhat-gas-reporter": "^1.0.8"
   }
 }
